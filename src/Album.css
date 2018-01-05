@@ -1,0 +1,31 @@
+button {
+  height: 35px;
+  width: 50px;
+  background-color: #9842f4;
+}
+tr:hover .song-number {
+  display: none;
+}
+
+.song-title {
+  color: gray;
+  font-size: 18px;
+}
+
+tr .ion-play {
+  display: none;
+}
+tr:hover .ion-play {
+  display: inline;
+}
+tr:hover .b-play .ion-play {
+  display: none;
+}
+
+.a-play .ion-play {
+  display: block;
+}
+.album-details {
+  color: gray;
+  font-size: 22px;
+}
